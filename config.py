@@ -5,4 +5,4 @@ import os
 #load_dotenv()
 
 #AKI_MONGO_HOST = os.environ.get('', "")
-TOKEN = os.environ.get('your_token_bot', "")
+TOKEN = "2095548449:AAGxeSwSsESK07GLgXxNm0XvJxzE1hkz83s" #os.environ.get('your_token_bot', "")
