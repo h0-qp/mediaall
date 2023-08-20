@@ -3,3 +3,4 @@ yt_dlp
 user-agent
 youtube-search
 pytelegrambotapi
+python-dotenv
