@@ -1,0 +1,5 @@
+wget
+yt_dlp
+user-agent
+youtube-search
+pytelegrambotapi
