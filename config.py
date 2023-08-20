@@ -1,8 +1,7 @@
 from json import load
-import os
+from os import getenv
 from dotenv import load_dotenv
-
 load_dotenv()
 
 #AKI_MONGO_HOST = os.environ.get('', "")
-TOKEN = os.environ.get('your_token_bot', "")
+TOKEN = getenv('your_token_bot', "")
