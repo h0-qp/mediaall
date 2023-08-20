@@ -11,7 +11,7 @@
   "website": "https://github.com/dyler2",
   "success_url": "https://t.me/SOURCE_FRANK",
   "env": {
-    "bot_token": {
+    "your_token_bot": {
       "description": "Your bot token",
       "value": "",
       "required": true
