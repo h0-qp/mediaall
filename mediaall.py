@@ -15,7 +15,7 @@ from config import TOKEN,ID
 
 db = C("download.sqlite")
 
-token = TOKRN
+token = TOKEN
 #logging.basicConfig(level=logging.INFO)
 
 
