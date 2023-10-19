@@ -4,3 +4,12 @@ user-agent
 youtube-search
 pytelegrambotapi
 python-dotenv
+kvsqlite
+aiogram
+asyncio
+datetime
+logging
+requests
+random
+glob
+re
