@@ -15,6 +15,11 @@
       "description": "Your bot token",
       "value": "",
       "required": true
+    },
+    "your_id": {
+      "description": "ايدي حسابك",
+      "value": "",
+      "required": true
     }
   },
   "addons": [
