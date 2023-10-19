@@ -11,7 +11,7 @@ from aiogram import Bot, Dispatcher, types,filters
 #from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from aiogram.types import InlineKeyboardMarkup as km, InlineKeyboardButton as btn
 import time
-from config import TOKRN,ID
+from config import TOKEN,ID
 
 db = C("download.sqlite")
 
