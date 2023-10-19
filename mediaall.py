@@ -5,10 +5,10 @@ from yt_dlp import YoutubeDL
 from kvsqlite.sync import Client as C
 import glob
 
-import logging
+#import logging
 import aiogram
 from aiogram import Bot, Dispatcher, types,filters
-from aiogram.contrib.fsm_storage.memory import MemoryStorage
+#from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from aiogram.types import InlineKeyboardMarkup as km, InlineKeyboardButton as btn
 import time
 from config import TOKRN,ID
@@ -16,12 +16,12 @@ from config import TOKRN,ID
 db = C("download.sqlite")
 
 token = TOKRN
-logging.basicConfig(level=logging.INFO)
+#logging.basicConfig(level=logging.INFO)
 
 
 bot = Bot(token=token)
-storage = MemoryStorage()
-bot = Dispatcher(bot, storage=storage)
+#storage = MemoryStorage()
+bot = Dispatcher(bot)#, storage=storage)
 
 def stm(seconds):
 	return '{:02}:{:02}:{:02}'.format(seconds // 3600, seconds % 3600 // 60, seconds % 60)
